@@ -157,9 +157,11 @@
     }
 
     .frog-icon {
+      border-radius: 0;
+      box-shadow: none;
       height: 1.5em;
       vertical-align: middle;
-      margin-right: 8px;
+      margin-right: 6px;
      }
     
     footer {
