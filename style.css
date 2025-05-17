@@ -8,6 +8,10 @@
         padding-bottom: 80px;
     }
 
+    html {
+       scroll-behavior: smooth;
+    }
+
     h1 {
       display: inline-block;
       border-bottom: 3px solid #d4b06a;
@@ -143,6 +147,40 @@
       box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
         transform: translateY(-1px);
     }
+
+    nav {
+       text-align: center;
+       padding: 12px 0;
+       background-color: rgba(255, 255, 255, 0.85);
+       backdrop-filter: blur(4px);
+       border-bottom: 1px solid #dddd;
+       position sticky;
+       top 0;
+       z-index: 1000;
+    }
+
+    .nav-links {
+       list-style: none;
+       padding: 0;
+       margin: 0;
+    }
+
+    .nav-links li {
+       display: inline;
+       margin: 0 15px;
+    }
+
+    .nav-links a {
+       text-decoratin: none;
+      color: #555;
+       font-weight: bold;
+       transition: color 0.3 ease;
+    }
+
+    .nav-links a:hover {
+       color: #0077cc;
+    }
+
 
     .emoji-fix {
        font-size: 1.2em;
