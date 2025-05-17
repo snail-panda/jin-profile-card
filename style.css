@@ -330,19 +330,23 @@ nav a:hover {
   position: fixed;
   bottom: 30px;
   right: 20px;
-  font-size: 1.5rem;
-  padding: 10px 14px;
+  padding: 0;
+  background: transparent;
   border: none;
-  border-radius: 50%;
-  background-color: #f2f2f2;
-  color: #333;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: none;
-  transition: opacity 0.3s ease;
   z-index: 999;
 }
 
-#backToTop:hover {
-  background-color: #e0e0e0;
+#backToTop img {
+  display: block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+#backToTop:hover img {
+  transform: translateY(-2px) scale(1.05);
 }
