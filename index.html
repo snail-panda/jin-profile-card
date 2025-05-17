@@ -103,9 +103,28 @@
       <li>Location: New York, NY</li>
     </ul>
 
+<button id="backToTop" title="Back to Top">⬆️</button>
+
   </div>
 <footer>
   <p>© 2025 Jin – Built with frog energy  <img src="frog022.png" alt="Frog02" class="frog-icon" style="margin-left: 6px; vertical-align: text-bottom;">& One tag at a time 🧱</p>
 </footer>
+
+<script>
+  const topBtn = document.getElementById("backToTop");
+
+  window.onscroll = function () {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      topBtn.style.display = "block";
+    } else {
+      topBtn.style.display = "none";
+    }
+  };
+
+  topBtn.onclick = function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+</script>
+
 </body>
 </html>
