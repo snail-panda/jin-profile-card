@@ -343,6 +343,10 @@ nav a:hover {
   z-index: 1000;
   transition: transform 0.3s ease;
   outline: none;
+  border: none;
+  box-shadow: none;
+  background: none;
+  padding: 0;
 }
   
 #backToTop img {
@@ -353,6 +357,6 @@ nav a:hover {
 }
 
 #backToTop:hover {
-  transform: scale(1.05) rotate(-5deg);
+  transform: scale(1.08) rotate(-3deg);
   box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
 }
