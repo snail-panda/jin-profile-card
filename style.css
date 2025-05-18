@@ -220,6 +220,11 @@ nav a:hover {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
 
+    #backToTop img {
+       border-radius: 0;
+       box-shadow: none;
+    }
+
     .frog-icon {
       border-radius: 0;
       box-shadow: none;
@@ -340,7 +345,12 @@ nav a:hover {
   box-shadow: none;
   padding: 0;}
 
-
+#backToTop img {
+  display: block;
+  width: 48px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
 
 #backToTop:hover {
   transform: scale(1.1) rotate(-5deg);
