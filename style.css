@@ -341,7 +341,7 @@ img#backToTop {
   box-shadow: none;
   background: none;
   padding: 0;
-  display: none !important;
+  display: none;
 }
 
 img#backToTop:hover {
