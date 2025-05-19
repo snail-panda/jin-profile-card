@@ -347,15 +347,9 @@ nav a:hover {
   box-shadow: none;
   background: none;
   padding: 0;
-  display: none;
+  display: block;
 }
   
-#backToTop img {
-  display: block;
-  width: 48px;
-  height: auto;
-  transition: transform 0.3s ease;
-}
 
 #backToTop:hover {
   transform: scale(1.08) rotate(-3deg);
