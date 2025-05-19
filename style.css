@@ -339,13 +339,13 @@ nav a:hover {
   transition: transform 0.3s ease, opacity 0.3s ease;
   opacity: 0.9;
 }
+
 #backToTop:hover {
   transform: scale(1.1) rotate(-5deg);
-  box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
 }
 
 @media screen and (max-width: 600px) {
   #backToTop {
-    width: 60px;
+    width: 48px;
   }
 }
