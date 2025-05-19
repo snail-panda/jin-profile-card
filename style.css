@@ -337,6 +337,8 @@ nav a:hover {
   right: 20px;
   width: 48px;
   height: auto;
+  role: button;
+  tabindex: 0;
   cursor: pointer;
   z-index: 1000;
   transition: transform 0.3s ease;
