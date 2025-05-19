@@ -328,21 +328,20 @@ nav a:hover {
 }
 
 img#backToTop {
-  position: fixed !important;
+  position: fixed;
   bottom: 20px;
   right: 20px;
   width: 48px;
   height: auto;
   cursor: pointer;
   z-index: 1000;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  outline: none;
-  border: none;
-  box-shadow: none;
-  background: none;
-  padding: 0;
   display: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }
+
 
 img#backToTop:hover {
   transform: scale(1.15) rotate(-5deg);
