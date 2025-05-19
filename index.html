@@ -115,19 +115,28 @@
 </footer>
 
 <script>
-  const topBtn = document.getElementById("backToTop");
+const topBtn = document.getElementById("backToTop");
 
-  window.onscroll = function () {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-      topBtn.style.display = "block";
-    } else {
-      topBtn.style.display = "none";
-    }
-  };
+window.onscroll = function () {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    topBtn.style.display = "block";
+  } else {
+    topBtn.style.display = "none";
+  }
+};
 
-  topBtn.onclick = function () {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+topBtn.onclick = function () {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+// 👇 Add this for keyboard accessibility
+topBtn.addEventListener("keydown", function (e) {
+  if (e.key === "Enter" || e.key === " ") {
+    e.preventDefault(); // Prevent space from scrolling the page
+    topBtn.click(); // Trigger the same scroll behavior
+  }
+});
+
 </script>
 
 </body>
