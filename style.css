@@ -341,10 +341,16 @@ img#backToTop {
   box-shadow: none;
   background: none;
   padding: 0;
-  display: block !important;
+  display: none !important;
 }
 
 img#backToTop:hover {
   transform: scale(1.15) rotate(-5deg);
-  box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
+  animation: bounce 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+  0%   { transform: scale(1.15) translateY(0); }
+  50%  { transform: scale(1.15) translateY(-5px); }
+  100% { transform: scale(1.15) translateY(0); }
 }
