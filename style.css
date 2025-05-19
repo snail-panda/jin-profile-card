@@ -362,3 +362,42 @@ img#backToTop:hover {
   text-align: center;
   opacity: 0.85;
 }
+
+.project-list {
+  margin-top: 16px;
+  padding-left: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: 'Abel', sans-serif;
+}
+
+.project-item {
+  background: #fff9f4;
+  padding: 10px 12px;
+  border-left: 4px solid #ffd9a0;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.project-label {
+  font-weight: bold;
+  color: #333;
+  margin-right: 6px;
+}
+
+.project-item a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+  color: #005fa3;
+}
+
+.coming-soon {
+  color: #999;
+  font-style: italic;
+}
