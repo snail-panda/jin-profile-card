@@ -327,28 +327,28 @@ nav a:hover {
    }
 }
 
-#backToTop {
-  position: fixed !important;
+img#backToTop {
+  position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 60px !important;
-  height: auto !important;
+  width: 60px;
+  height: auto;
   cursor: pointer;
   z-index: 1001;
   display: none;
-  transition: transform 0.3s ease, opacity 0.3s ease;
   opacity: 0.9;
-  border-radius: 0 !important;
-  box-shadow: none !important;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  border-radius: 0;
+  box-shadow: none;
 }
 
-#backToTop:hover {
-  transform: scale(1.1) rotate(-5deg);
+img#backToTop:hover {
+  transform: scale(1.15) rotate(-5deg);
   box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
 }
 
 @media screen and (max-width: 600px) {
-  #backToTop {
+  img#backToTop {
     width: 48px;
   }
 }
