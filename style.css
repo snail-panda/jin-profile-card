@@ -197,7 +197,7 @@ nav a:hover {
     }
 
     .nav-links a {
-       text-decoratin: none;
+       text-decoration: none;
       color: #555;
        font-weight: bold;
        transition: color 0.3 ease;
@@ -341,10 +341,6 @@ img#backToTop {
   transition: transform 0.3s ease, opacity 0.3s ease;
   border-radius: 0;
   box-shadow: none;
-
-
-border: 5px solid red;
-
 }
 
 img#backToTop:hover {
