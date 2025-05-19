@@ -346,8 +346,6 @@ nav a:hover {
 
 @media screen and (max-width: 600px) {
   #backToTop {
-    right: 12px;
-    bottom: 12px;
-    width: 48px;
+    width: 60px;
   }
 }
