@@ -408,3 +408,28 @@ img#backToTop:hover {
   color: #999;
   font-style: italic;
 }
+
+.readme-note {
+  margin-top: 40px;
+  padding: 20px;
+  background: linear-gradient(to right, #f7f9fc, #fff);
+  border-left: 5px solid #cde4f9;
+  border-radius: 8px;
+  font-family: 'Alegreya', serif;
+  color: #444;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.readme-note h3 {
+  margin-top: 0;
+  font-family: 'Courgette', cursive;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: #2c3e50;
+}
+
+.readme-note p {
+  margin: 0 0 10px 0;
+  line-height: 1.8;
+}
+
