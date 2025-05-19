@@ -330,8 +330,8 @@ nav a:hover {
 img#backToTop {
   position: fixed !important;
   bottom: 20px;
-  right: 20px;
-  width: 48px;
+  width: 48px !important;
+  height: auto !important;
   height: auto;
   cursor: pointer;
   z-index: 1000;
@@ -341,7 +341,7 @@ img#backToTop {
   box-shadow: none;
   background: none;
   padding: 0;
-  display: none;
+  display: block !important;
 }
 
 img#backToTop:hover {
