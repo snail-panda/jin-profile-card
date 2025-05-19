@@ -331,8 +331,8 @@ nav a:hover {
   position: fixed !important;
   bottom: 20px;
   right: 20px;
-  width: 60px important;
-  height: auto important;
+  width: 60px !important;
+  height: auto !important;
   cursor: pointer;
   z-index: 1001;
   display: none;
