@@ -337,7 +337,8 @@ nav a:hover {
   right: 20px;
   width: 48px;
   height: auto;
-
+  role: button;
+  tabindex: 0;
   cursor: pointer;
   z-index: 1000;
   transition: transform 0.3s ease;
@@ -358,5 +359,4 @@ nav a:hover {
 
 #backToTop:hover {
   transform: scale(1.08) rotate(-3deg);
-  box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
 }
