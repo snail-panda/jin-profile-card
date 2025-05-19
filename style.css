@@ -328,20 +328,23 @@ nav a:hover {
 }
 
 #backToTop {
-  position: fixed;
+  position: fixed !important;
   bottom: 20px;
   right: 20px;
-  width: 60px;
-  height: auto;
+  width: 60px important;
+  height: auto important;
   cursor: pointer;
-  z-index: 9999;
+  z-index: 1001;
   display: none;
   transition: transform 0.3s ease, opacity 0.3s ease;
   opacity: 0.9;
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }
 
 #backToTop:hover {
   transform: scale(1.1) rotate(-5deg);
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
 }
 
 @media screen and (max-width: 600px) {
