@@ -347,6 +347,7 @@ nav a:hover {
   box-shadow: none;
   background: none;
   padding: 0;
+  display: none;
 }
   
 #backToTop img {
