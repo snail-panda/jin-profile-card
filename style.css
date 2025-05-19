@@ -353,3 +353,12 @@ img#backToTop:hover {
     width: 48px;
   }
 }
+
+.version-tag {
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 6px
+  font-style: italic;
+  text-align: center;
+  opacity: 0.85;
+}
