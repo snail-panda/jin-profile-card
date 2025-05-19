@@ -340,6 +340,10 @@ img#backToTop {
   transition: transform 0.3s ease, opacity 0.3s ease;
   border-radius: 0;
   box-shadow: none;
+
+
+border: 5px solid red;
+
 }
 
 img#backToTop:hover {
