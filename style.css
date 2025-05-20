@@ -376,6 +376,7 @@ img#backToTop:hover {
   background: #fff9f4;
   padding: 10px 12px;
   border-left: 4px solid #ffd9a0;
+  cursor: pointer;
   border-radius: 6px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
