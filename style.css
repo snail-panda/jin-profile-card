@@ -477,7 +477,7 @@ img#backToTop:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
+  gap: 4px;
   font-family: 'Carattere', cursive;
   font-style: italic;
   font-size: 1.05rem;
@@ -489,6 +489,7 @@ img#backToTop:hover {
   text-decoration: none;
   transition: background-color 0.2s ease, color 0.2s ease;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .garden-button img {
