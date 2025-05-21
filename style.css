@@ -437,8 +437,7 @@ img#backToTop:hover {
 }
 
 .flashcard-home {
-  background: url('ivy-brick-only.png') no-repeat center center;
-  background-size: cover;
+  background: linear-gradient(to right, #f0fff0, #e0ffe0);
   padding: 16px 20px;
   margin: 32px auto 24px;
   border-left: 5px solid #9be39b;
@@ -480,6 +479,11 @@ img#backToTop:hover {
   text-decoration: none;
   transition: background-color 0.2s ease, color 0.2s ease;
   cursor: pointer;
+}
+
+.garden-button img {
+  height: 1em;
+  vertical-align: middle;
 }
 
 .garden-button:hover {
