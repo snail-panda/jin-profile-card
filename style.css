@@ -464,9 +464,13 @@ img#backToTop:hover {
 }
 
 .garden-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
   font-family: 'Carattere', cursive;
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: #2d5b38;
   background-color: transparent;
   border: 1px solid #2d5b38;
