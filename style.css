@@ -464,6 +464,14 @@ img#backToTop:hover {
   color: #2e472c;
 }
 
+.flashcard-text {
+  background-color: rgba(255, 255, 255, 0.5); /* try 0.4–0.6 */
+  padding: 12px 20px;
+  border-radius: 6px;
+  display: inline-block;
+  backdrop-filter: blur(2px); /* optional */
+}
+
 .garden-button {
   display: inline-flex;
   align-items: center;
