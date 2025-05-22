@@ -1,3 +1,16 @@
+/* 
+  Version: SWG Banner v1.2
+  Locked: May 21, 2025
+  Notes:
+  - .flashcard-overlay: rgba(255,255,255,0.2) blur(2px)
+  - Mobile responsive text
+  - Font: 'Felix Titling', fallback to 'Cinzel'
+*/
+
+body {
+  font-family: 'Abel', sans-serif;
+  line-height: 1.6;
+  ...
 
     body {
       font-family: 'Abel', sans-serif;
