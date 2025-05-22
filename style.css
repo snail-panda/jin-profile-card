@@ -542,5 +542,7 @@ img#backToTop:hover {
   .garden-button {
     font-size: 0.95rem;
     padding: 6px 12px;
+    white-space: nowrap;
+    flex-wrap: nowrap;
   }
 }
