@@ -538,6 +538,11 @@ img#backToTop:hover {
 
 @media screen and (max-width: 600px) {
   .flashcard-home {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #f7f1e1; /* 背景の画像と馴染む色。必要なら調整OK */
+    min-height: 240px; /* 画像の見え方に応じて増減OK */
     padding: 12px 16px;
     margin: 24px auto;
   }
