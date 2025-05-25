@@ -568,7 +568,7 @@ img#backToTop:hover {
 .key-icon {
       border-radius: 0;
       box-shadow: none;
-      height: 1em;
+      height: 0.8em;
       vertical-align: middle;
       margin-right: 4px;
      }
