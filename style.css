@@ -238,6 +238,10 @@ nav a:hover {
       margin-right: 6px;
      }
 
+     .naruto-icon {
+        content: url("naruto-icon-black.png");
+     }
+
 .key-icon {
       border-radius: 0;
       box-shadow: none;
@@ -323,6 +327,10 @@ nav a:hover {
     color: #999;
   }
 
+  .naruto-icon {
+    content: url("naruto-icon-white.png");
+  }
+
 }
    
   @media (prefers-color-scheme: dark) {
@@ -339,6 +347,7 @@ nav a:hover {
     color: #aeeaff;
   }
 }
+
 
   @media screen and (max-width: 600px) {
       nav {
