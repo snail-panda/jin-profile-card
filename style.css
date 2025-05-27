@@ -240,6 +240,8 @@ nav a:hover {
 
      .naruto-icon {
         content: url("naruto-icon-black.png");
+        width: 18px;
+        height: auto;
      }
 
 .key-icon {
